@@ -132,3 +132,30 @@ let addNewLap = laptops.slice(1, 3);
 console.log("sliced array", addNewLap);
 
 console.log("array after slicing", laptops);
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+const reversefr = fruits.reverse();
+// console.log(reversefr);
+
+const sorted = fruits.sort();
+
+const sortedRev = sorted.reverse();
+
+console.log(sortedRev);
+
+// https://www.w3schools.com/js/js_array_sort.asp
+const points = [40, 100, 1, 5, 25, 10];
+
+console.log(points.sort((a, b) => b - a));
+
+// const sortNum = function (a, b) {
+//   return a - b;
+// };
+
+// const sortNumArr = (a, b) => {
+//   return a - b;
+// };
+
+// check minimum value in an array
+console.log(points);

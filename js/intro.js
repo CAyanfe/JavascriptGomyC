@@ -15,3 +15,11 @@
 // console.log(4, "after conversion", typeof secondNum);
 // let result = firstNum + secondNum;
 // console.log(result);
+
+let myname = "James";
+myname = "Maria";
+
+console.log(myname);
+
+const newName = "Pete";
+newName = "Jones";
